@@ -1,0 +1,29 @@
+{
+  "name": "husky2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p4avinash/husky2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p4avinash/husky2/issues"
+  },
+  "homepage": "https://github.com/p4avinash/husky2#readme",
+  "dependencies": {
+    "eslint": "^8.6.0",
+    "phplint": "^2.0.5"
+  },
+  "devDependencies": {
+    "@taikonauten/linters-phpcs": "^1.3.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7"
+  }
+}
