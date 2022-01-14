@@ -14,6 +14,17 @@
     "lint-staged": "^12.1.7"
   },
   "dependencies": {
-    "eslint": "^8.6.0"
+    "eslint": "^8.6.0",
+    "phplint": "^2.0.5"
+  },
+  "lint-staged": {
+    "*.{php}": [
+      "npx phplint"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "npx eslint",
+      "npx prettier --write",
+      "npm test --watchAll=false --findRelatedTasks --bail"
+    ]
   }
 }
