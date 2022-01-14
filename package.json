@@ -29,7 +29,8 @@
   },
   "lint-staged": {
     "*.{php}": [
-      "npx phplint"
+      "npx phplint",
+      "npx @taikonauten/linters-phpcs"
     ],
     "*.{js,jsx,ts,tsx}": [
       "npx eslint",
