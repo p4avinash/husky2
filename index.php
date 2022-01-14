@@ -8,4 +8,6 @@ function testing(){
   echo 'in here';
 }
 
+$est = "here"
+
 ?>
