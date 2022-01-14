@@ -24,12 +24,12 @@
     "grunt-phpmd": "^0.1.1",
     "husky": "^7.0.0",
     "lint-staged": "^12.1.7",
-    "phplint": "^2.0.5"
+    "phplint": "^2.0.5",
+    "sonarlint": "^1.1.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "npx eslint",
-      "npx prettier --write"
+      "npx eslint"
     ],
     "*.php": [
       "npx phplint"

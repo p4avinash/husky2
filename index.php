@@ -1,15 +1,9 @@
 <?php
 
-$name = "Avinash";
-
-$lint_test = "test";
-
-function testing(){
-  echo 'in here';
+function test(){
+  echo 'here is the best practice';
 }
 
-$est = "here";
-$here = 'there';
-echo 'here';
+$name = "Avinash";
 
 ?>
