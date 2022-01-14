@@ -30,9 +30,6 @@
     "*.{js,jsx,ts,tsx}": [
       "npx eslint",
       "npx prettier --write"
-    ],
-    "*.php": [
-      "npx phplint"
     ]
   }
 }

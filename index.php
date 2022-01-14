@@ -8,7 +8,7 @@ function testing(){
   echo 'in here';
 }
 
-$est = "here";
+$est = "here"
 $here = 'there';
 
 ?>
