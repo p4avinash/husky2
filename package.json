@@ -28,13 +28,12 @@
     "lint-staged": "^12.1.7"
   },
   "lint-staged": {
-    "*.{php}": [
-      "npx phplint",
-      "npx @taikonauten/linters-phpcs"
-    ],
     "*.{js,jsx,ts,tsx}": [
       "npx eslint",
       "npx prettier --write"
+    ],
+        "*.php": [
+      "npx phplint"
     ]
   }
 }
