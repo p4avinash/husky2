@@ -21,7 +21,8 @@
   },
   "lint-staged": {
     "*.{php}": [
-      "npx phplint"
+      "npx phplint",
+      "npx phpcs"
     ],
     "*.{js,jsx,ts,tsx}": [
       "npx eslint",
