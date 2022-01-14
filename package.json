@@ -33,7 +33,7 @@
       "npx prettier --write"
     ],
         "*.php": [
-      "npx phplint"
+      "npx eslint"
     ]
   }
 }
