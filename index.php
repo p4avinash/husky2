@@ -2,6 +2,10 @@
 
 $name = "Avinash";
 
-$lint_test = "test"
+$lint_test = "test";
+
+function testing(){
+  echo 'in here';
+}
 
 ?>
